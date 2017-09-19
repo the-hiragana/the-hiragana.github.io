@@ -1,13 +1,23 @@
 const path = require('path')
 const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './src/main.js',
+  entry: {
+    app: './src/main',
+    vendor: './src/vendor'
+  },
 
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'bundle.js'
+    filename: '[name].bundle.js'
+  },
+
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js'
+    }
   },
 
   module: {
@@ -31,11 +41,15 @@ module.exports = {
     ]
   },
 
-  resolve: {
-    alias: {
-      'vue$': 'vue/dist/vue.esm.js'
-    }
-  },
+  plugins: [
+    new webpack.optimize.CommonsChunkPlugin({
+      names: ['vendor', 'manifest']
+    }),
+    new HtmlWebpackPlugin({
+      template: 'src/assets/index.html'
+    })
+  ],
+
 
   devServer: {
     historyApiFallback: true,
