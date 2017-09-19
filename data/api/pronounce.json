@@ -1,0 +1,557 @@
+[
+  {
+    "section": "청음",
+    "description": "청음이란 깨끗한 소리로 발음되는 것을 말한다.",
+    "kanji": "清音",
+    "ruby": "せいおん",
+    "rows": [
+      {
+        "row": "あ행",
+        "description": "「あ·い·う·え·お」는 일본어의 모음이며, 발음은 우리말의 [아·이·우·에·오]와 비슷하다.",
+        "characters": [
+          {
+            "character": "あ",
+            "phonetic": "a",
+            "word": "あり",
+            "mean": "개미"
+          },
+          {
+            "character": "い",
+            "phonetic": "i",
+            "word": "いぬ",
+            "mean": "개"
+          },
+          {
+            "character": "う",
+            "phonetic": "u",
+            "word": "うえ",
+            "mean": "위"
+          },
+          {
+            "character": "え",
+            "phonetic": "e",
+            "word": "いき",
+            "mean": "역"
+          },
+          {
+            "character": "お",
+            "phonetic": "o",
+            "word": "おに",
+            "mean": "도깨비"
+          }
+        ]
+      },
+      {
+        "row": "か행",
+        "description": "「あ·い·う·え·お」에 [k]를 붙인 발음으로, 단어의 처음에 오면 우리말의 [ㄱ]과 [ㅋ]의 중간음으로 발음되고, 중간이나 끝에 오면 우리말의 [ㄲ]에 비슷하게 발음한다.",
+        "characters": [
+          {
+            "character": "か",
+            "phonetic": "ka",
+            "word": "かお",
+            "mean": "얼굴"
+          },
+          {
+            "character": "き",
+            "phonetic": "ki",
+            "word": "きく",
+            "mean": "국화"
+          },
+          {
+            "character": "く",
+            "phonetic": "ku",
+            "word": "くつ",
+            "mean": "구두"
+          },
+          {
+            "character": "け",
+            "phonetic": "ke",
+            "word": "けむり",
+            "mean": "연기"
+          },
+          {
+            "character": "こ",
+            "phonetic": "ko",
+            "word": "こま",
+            "mean": "팽이"
+          }
+        ]
+      },
+      {
+        "row": "さ행",
+        "description": "「あ·い·う·え·お」에 [s]를 붙인 발음으로, 우리말의 [사·시·스·세·소]와 비슷하다. 「す」는 우리말의 [수]와 [스]의 중간발음이지만 [스]에 가까운 발음이다.",
+        "characters": [
+          {
+            "character": "さ",
+            "phonetic": "sa",
+            "word": "さる",
+            "mean": "원숭이"
+          },
+          {
+            "character": "し",
+            "phonetic": "si",
+            "word": "しか",
+            "mean": "사슴"
+          },
+          {
+            "character": "す",
+            "phonetic": "su",
+            "word": "すいか",
+            "mean": "수박"
+          },
+          {
+            "character": "せ",
+            "phonetic": "se",
+            "word": "せみ",
+            "mean": "매미"
+          },
+          {
+            "character": "そ",
+            "phonetic": "so",
+            "word": "そら",
+            "mean": "하늘"
+          }
+        ]
+      },
+      {
+        "row": "た행",
+        "description": "우리말의 [타·치·츠·테·토]에 가까운 발음이지만, 중간이나 끝에 오면 된소리로 변하여 우리말의 [따·찌·쯔·떼·또]와 비슷하게 발음한다.",
+        "characters": [
+          {
+            "character": "た",
+            "phonetic": "ta",
+            "word": "たこ",
+            "mean": "문어"
+          },
+          {
+            "character": "ち",
+            "phonetic": "chi",
+            "word": "ちかてつ",
+            "mean": "지하철"
+          },
+          {
+            "character": "つ",
+            "phonetic": "tsu",
+            "word": "つき",
+            "mean": "달"
+          },
+          {
+            "character": "て",
+            "phonetic": "te",
+            "word": "てんき",
+            "mean": "날씨"
+          },
+          {
+            "character": "と",
+            "phonetic": "to",
+            "word": "とけい",
+            "mean": "시계"
+          }
+        ]
+      },
+      {
+        "row": "な행",
+        "description": "「あ·い·う·え·お」에 [n]을 붙인 발음으로, 우리말의 [나·니·누·네·노]와 비슷하다. 「ぬ」는 우리말의 [누]와 [느]의 중간발음이다.",
+        "characters": [
+          {
+            "character": "な",
+            "phonetic": "na",
+            "word": "なし",
+            "mean": "배"
+          },
+          {
+            "character": "に",
+            "phonetic": "ni",
+            "word": "にわ",
+            "mean": "마당"
+          },
+          {
+            "character": "ぬ",
+            "phonetic": "nu",
+            "word": "ぬりえ",
+            "mean": "색칠그림"
+          },
+          {
+            "character": "ね",
+            "phonetic": "ne",
+            "word": "ねこ",
+            "mean": "고양이"
+          },
+          {
+            "character": "の",
+            "phonetic": "no",
+            "word": "のり",
+            "mean": "김"
+          }
+        ]
+      },
+      {
+        "row": "は행",
+        "description": "「あ·い·う·え·お」에 [h]를 붙인 발음으로, 우리말의 [하·히·후·헤·호]와 비슷하다.",
+        "characters": [
+          {
+            "character": "は",
+            "phonetic": "ha",
+            "word": "はさみ",
+            "mean": "가위"
+          },
+          {
+            "character": "ひ",
+            "phonetic": "hi",
+            "word": "ひかり",
+            "mean": "빛"
+          },
+          {
+            "character": "ふ",
+            "phonetic": "hu",
+            "word": "ふね",
+            "mean": "배"
+          },
+          {
+            "character": "へ",
+            "phonetic": "he",
+            "word": "へや",
+            "mean": "방"
+          },
+          {
+            "character": "ほ",
+            "phonetic": "ho",
+            "word": "ほん",
+            "mean": "책"
+          }
+        ]
+      },
+      {
+        "row": "ま행",
+        "description": "「あ·い·う·え·お」에 [m]를 붙인 발음으로, 우리말의 [마·미·무·메·모]와 비슷하다.",
+        "characters": [
+          {
+            "character": "ま",
+            "phonetic": "ma",
+            "word": "まめ",
+            "mean": "콩"
+          },
+          {
+            "character": "み",
+            "phonetic": "mi",
+            "word": "みみ",
+            "mean": "귀"
+          },
+          {
+            "character": "む",
+            "phonetic": "mu",
+            "word": "むすこ",
+            "mean": "아들"
+          },
+          {
+            "character": "め",
+            "phonetic": "me",
+            "word": "めん",
+            "mean": "국수"
+          },
+          {
+            "character": "も",
+            "phonetic": "mo",
+            "word": "もり",
+            "mean": "숲"
+          }
+        ]
+      },
+      {
+        "row": "や행",
+        "description": "「や·ゆ·よ」는 일본어의 반모음이며, 발음은 우리말의 [야·유·요]와 비슷하다.",
+        "characters": [
+          {
+            "character": "や",
+            "phonetic": "ya",
+            "word": "やかん",
+            "mean": "주전자"
+          },
+          {},
+          {
+            "character": "ゆ",
+            "phonetic": "yu",
+            "word": "ゆめ",
+            "mean": "꿈"
+          },
+          {},
+          {
+            "character": "よ",
+            "phonetic": "yo",
+            "word": "よる",
+            "mean": "밤"
+          }
+        ]
+      },
+      {
+        "row": "ら행",
+        "description": "「あ·い·う·え·お」에 [r]을 붙인 발음으로, 우리말의 [라·리·루·레·로]와 비슷하다.",
+        "characters": [
+          {
+            "character": "ら",
+            "phonetic": "ra",
+            "word": "らいねん",
+            "mean": "내년"
+          },
+          {
+            "character": "り",
+            "phonetic": "ri",
+            "word": "りす",
+            "mean": "다람쥐"
+          },
+          {
+            "character": "る",
+            "phonetic": "ru",
+            "word": "るす",
+            "mean": "부재중"
+          },
+          {
+            "character": "れ",
+            "phonetic": "re",
+            "word": "れんらく",
+            "mean": "연락"
+          },
+          {
+            "character": "ろ",
+            "phonetic": "ro",
+            "word": "ろうそく",
+            "mean": "촛불"
+          }
+        ]
+      },
+      {
+        "row": "わ행",
+        "description": "「わ」는 일본어의 반모음이여, 우리말의 [와]와 같다. 「を」는 일본어의 반모음이여, 우리말의 [와]와 같다.",
+        "characters": [
+          {
+            "character": "わ",
+            "phonetic": "wa",
+            "word": "わに",
+            "mean": "악어"
+          },
+          {},
+          {},
+          {},
+          {
+            "character": "を",
+            "phonetic": "wo",
+            "word": "すしをたべる",
+            "mean": "초밥을 먹다"
+          }
+        ]
+      },
+      {
+        "row": "ん행",
+        "description": "우리말의 받침인 [ㄴ·ㅁ·ㅇ]에 가까운 발음이다. 뒤에 나오는 글자에 따라 발음이 바뀐다.",
+        "characters": [
+          {
+            "character": "ん",
+            "phonetic": "n",
+            "word": "きん",
+            "mean": "금"
+          },
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "section": "탁음",
+    "description": "청음에 탁음 부호 「゛」를 글자의 오른쪽 상단에 찍어서 발음한다.",
+    "kanji": "濁音",
+    "ruby": "だくおん",
+    "rows": [
+      {
+        "row": "が행",
+        "description": "[が행]의 발음은 영어의 [g]와 같은 발음으로, 우리말의 [ㄱ]과는 다른 발음이므로 주의한다.",
+        "characters": [
+          {
+            "character": "が",
+            "phonetic": "ga",
+            "word": "がいこく",
+            "mean": "외국"
+          },
+          {
+            "character": "ぎ",
+            "phonetic": "gi",
+            "word": "ぎんこう",
+            "mean": "은행"
+          },
+          {
+            "character": "ぐ",
+            "phonetic": "gu",
+            "word": "ぐんじん",
+            "mean": "군인"
+          },
+          {
+            "character": "げ",
+            "phonetic": "ge",
+            "word": "げた",
+            "mean": "일본 나막신"
+          },
+          {
+            "character": "ご",
+            "phonetic": "go",
+            "word": "ごはん",
+            "mean": "밥"
+          }
+        ]
+      },
+      {
+        "row": "ざ행",
+        "description": "[ざ행]의 발음은 우리말에 없는 발음이므로 주의한다. 영어의 [z]발음과 같다.",
+        "characters": [
+          {
+            "character": "ざ",
+            "phonetic": "za",
+            "word": "ざりがに",
+            "mean": "가재"
+          },
+          {
+            "character": "じ",
+            "phonetic": "zi",
+            "word": "じしん",
+            "mean": "지진"
+          },
+          {
+            "character": "ず",
+            "phonetic": "zu",
+            "word": "ずつう",
+            "mean": "두통"
+          },
+          {
+            "character": "ぜ",
+            "phonetic": "ze",
+            "word": "ぜんこく",
+            "mean": "전국"
+          },
+          {
+            "character": "ぞ",
+            "phonetic": "zo",
+            "word": "ぞう",
+            "mean": "코끼리"
+          }
+        ]
+      },
+      {
+        "row": "だ행",
+        "description": "[だ행]의 [だ][で][ど]의 발음은 영어의 [d]와 같은 발음이다. [ぢ][づ]는 [じ][ず]와 발음이 같다.",
+        "characters": [
+          {
+            "character": "だ",
+            "phonetic": "da",
+            "word": "だいこん",
+            "mean": "무"
+          },
+          {
+            "character": "ぢ",
+            "phonetic": "zi",
+            "word": "はなぢ",
+            "mean": "코피"
+          },
+          {
+            "character": "づ",
+            "phonetic": "zu",
+            "word": "てづくり",
+            "mean": "만든 것"
+          },
+          {
+            "character": "で",
+            "phonetic": "de",
+            "word": "でぐち",
+            "mean": "출구"
+          },
+          {
+            "character": "ど",
+            "phonetic": "do",
+            "word": "どろぼう",
+            "mean": "도둑"
+          }
+        ]
+      },
+      {
+        "row": "ば행",
+        "description": "[ば행]의 발음은 영어의 [b]발음과 같다.",
+        "characters": [
+          {
+            "character": "ば",
+            "phonetic": "ba",
+            "word": "ばら",
+            "mean": "장미"
+          },
+          {
+            "character": "び",
+            "phonetic": "bi",
+            "word": "びじん",
+            "mean": "미인"
+          },
+          {
+            "character": "ぶ",
+            "phonetic": "bu",
+            "word": "ぶどう",
+            "mean": "포도"
+          },
+          {
+            "character": "べ",
+            "phonetic": "be",
+            "word": "べんとう",
+            "mean": "도시락"
+          },
+          {
+            "character": "ぼ",
+            "phonetic": "bo",
+            "word": "ぼく",
+            "mean": "나"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "반탁음",
+    "description": "청음에 반탁음 부호 「゜」를 글자의 오른쪽 상단에 작게 찍어서 발음한다.",
+    "kanji": "濁音",
+    "ruby": "だくおん",
+    "rows": [
+      {
+        "row": "ぱ행",
+        "description": "[ぱ행]의 발음은 단어의 처음에 올 때는 영어의 [p]발음에 가까운 발음이고, 단어의 중간이나 뒤에 올 때는 우리말의 [ㅃ]에 가까운 발음이다.",
+        "characters": [
+          {
+            "character": "ぱ",
+            "phonetic": "pa",
+            "word": "ぱくぱく",
+            "mean": "덥석덥석"
+          },
+          {
+            "character": "ぴ",
+            "phonetic": "pi",
+            "word": "ぴかぴか",
+            "mean": "번쩍번쩍"
+          },
+          {
+            "character": "ぷ",
+            "phonetic": "pu",
+            "word": "ぷんぷん",
+            "mean": "몹시 화 난 모습"
+          },
+          {
+            "character": "ぺ",
+            "phonetic": "pe",
+            "word": "ぺこぺこ",
+            "mean": "몹시 배고픈 모습"
+          },
+          {
+            "character": "ぽ",
+            "phonetic": "po",
+            "word": "ぽかぴか",
+            "mean": "따끈따끈"
+          }
+        ]
+      }
+    ]
+  }
+]

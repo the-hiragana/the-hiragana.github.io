@@ -16,7 +16,11 @@ module.exports = {
 
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
+      api: path.resolve(__dirname, './src/api'),
+      components: path.resolve(__dirname, './src/components'),
+      store: path.resolve(__dirname, './src/store'),
+      template: path.resolve(__dirname, './src/template')
     }
   },
 
@@ -57,11 +61,12 @@ module.exports = {
     })
   ],
 
-
   devServer: {
-    contentBase: './dist',
+    contentBase: [path.resolve(__dirname, './dist'), path.resolve(__dirname, './data')],
     historyApiFallback: true,
-    noInfo: true
+    noInfo: true,
+    port: 8080,
+    host: '0.0.0.0'
   },
 
   devtool: '#eval-source-map'

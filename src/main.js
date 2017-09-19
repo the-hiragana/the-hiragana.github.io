@@ -2,9 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import App from './App.vue'
-import Home from './home/Home.vue'
-import hiragana from './hiragana/Hiragana.vue'
-import pronounce from './pronounce/Pronounce.vue'
+import Home from 'components/Home.vue'
+import hiragana from 'components/Hiragana.vue'
+import pronounce from 'components/Pronounce.vue'
+import store from 'store'
 
 Vue.use(VueRouter)
 
@@ -21,5 +22,6 @@ const router = new VueRouter({
 new Vue({
   el: '#app',
   router,
+  store,
   render: h => h(App)
 })
