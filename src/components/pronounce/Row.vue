@@ -1,14 +1,17 @@
 <template>
-  <div class="mt-3">
-    <h4>{{ row.row }}</h4>
-    <div class="card-group">
-      <div class="card bg-pron mb-3" v-for="(character, index) in row.characters" :key="index">
-        <div class="phonetic circle text-center">{{ character.phonetic }}</div>
+  <div class="my-5">
+    <button type="button" class="btn btn-outline-secondary mb-3">{{ row.row }}</button>
+    <div class="card-group mb-3">
+      <div class="card card-pron text-center" v-for="(character, index) in row.characters" :key="index">
+        <div class="phonetic circle" v-if="character.phonetic">{{ character.phonetic }}</div>
+        <div class="card-title">{{ character.character }}</div>
         <div class="card-body">
-          <h4 class="card-pron text-center">{{ character.character }}</h4>
+          <p class="mb-0">{{ character.word }}</p>
+          <p class="mb-0">{{ character.mean }}</p>
         </div>
       </div>
     </div>
+    <p><span class="badge badge-success">TIP</span> {{ row.description }}</p>
   </div>
 </template>
 
@@ -19,17 +22,32 @@ export default {
 </script>
 
 <style>
-.bg-pron {
-  background-color: #ffbbbb
+.card-group .card:first-child .card-title {
+  border-top-left-radius: 10px;
+}
+
+.card-group .card:last-child .card-title {
+  border-top-right-radius: 10px;
 }
 
 .card-pron {
-  font-size: 3rem;
+  border-color: #fff;
 }
 
-.phonetic {
+.card-pron .card-title {
+  font-size: 3rem;
+  margin-bottom: 0;
+  background-color: #ffbbbb;
+}
+
+.card-pron .card-body {
+  padding: .75rem;
+  background-color: #f6f6f6;
+}
+
+.card-pron .phonetic {
   position: absolute;
-  right: 10px;
+  right: 5px;
   top: -15px;
   background-color: #ff6969;
 }
