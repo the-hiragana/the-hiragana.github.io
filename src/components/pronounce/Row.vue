@@ -1,10 +1,10 @@
 <template>
   <div class="my-5">
     <button type="button" class="btn btn-outline-secondary mb-3">{{ row.row }}</button>
-    <div class="card-group mb-3">
-      <div class="card card-pron text-center" v-for="(character, index) in row.characters" :key="index">
+    <div class="card-group">
+      <div class="card card-pron text-center mb-3" v-for="(character, index) in row.characters" :key="index">
         <div class="phonetic circle" v-if="character.phonetic">{{ character.phonetic }}</div>
-        <div class="card-title">{{ character.character }}</div>
+        <div class="card-title wf-notosansjapanese">{{ character.character }}</div>
         <div class="card-body">
           <p class="mb-0">{{ character.word }}</p>
           <p class="mb-0">{{ character.mean }}</p>
@@ -22,12 +22,18 @@ export default {
 </script>
 
 <style>
-.card-group .card:first-child .card-title {
+.card-group .card .card-title {
   border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.card-group .card:last-child .card-title {
-  border-top-right-radius: 10px;
+@media (min-width: 576px) {
+  .card-group .card:not(:first-child) .card-title {
+    border-top-left-radius: 0;
+    }
+  .card-group .card:not(:last-child) .card-title {
+    border-top-right-radius: 0;
+  }
 }
 
 .card-pron {

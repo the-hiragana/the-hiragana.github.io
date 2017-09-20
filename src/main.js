@@ -7,6 +7,8 @@ import hiragana from 'components/Hiragana.vue'
 import pronounce from 'components/Pronounce.vue'
 import store from 'store'
 
+import './main.css'
+
 Vue.use(VueRouter)
 
 const routes = [
