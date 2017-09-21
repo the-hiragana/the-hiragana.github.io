@@ -1,6 +1,7 @@
-{
-  "HatsuOn": {
-    "section": "발음",
+[
+  {
+    "section": "HatsuOn",
+    "mean": "발음",
     "kanji": "発音",
     "word": "はつおん",
     "character": "ん",
@@ -127,8 +128,9 @@
       }
     ]
   },
-  "SokuOn": {
-    "section": "촉음",
+  {
+    "section": "SokuOn",
+    "mean": "촉음",
     "kanji": "促音",
     "word": "そくおん",
     "character": "っ",
@@ -256,8 +258,9 @@
       }
     ]
   },
-  "ChōOn": {
-    "section": "장음",
+  {
+    "section": "ChōOn",
+    "mean": "장음",
     "kanji": "長音",
     "word": "ちょうおん",
     "character": "",
@@ -369,4 +372,4 @@
       }
     ]
   }
-}
+]
