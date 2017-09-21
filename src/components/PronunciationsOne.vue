@@ -1,22 +1,23 @@
 <template>
   <div>
-    <jumbotron v-on:select="select" 
+    <Jumbotron v-on:select="select" 
                v-bind:map="getMap"
-               v-bind:current="pronunciations.selected"></jumbotron>
-    Pronunciations One
-    <p>{{ pronunciations.selected }}</p>
+               v-bind:current="pronunciations.selected"></Jumbotron>
+    <RowList v-bind:section="getCurrent"></RowList>
   </div>
 </template>
 
 <script>
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
-import jumbotron from './pronunciationsOne/Jumbotron.vue'
+import Jumbotron from './pronunciationsOne/Jumbotron.vue'
+import RowList from './pronunciationsOne/RowList.vue'
 import * as types from 'store/types'
 
 export default {
 
   components: {
-    jumbotron
+    Jumbotron,
+    RowList,
   },
 
   computed: {
