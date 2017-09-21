@@ -15,3 +15,20 @@
 // Pronounce
 export const FETCH_PRONOUNCE = 'regions/FETCH_PRONOUNCE'
 export const RECEIVE_PRONOUNCE = 'regions/RECEIVE_PRONOUNCE'
+
+// 50 Characters
+export const FETCH_50_CHARACTERS = 'characters/FETCH_50_CHARACTERS'
+export const RECEIVE_50_CHARACTERS = 'characters/RECEIVE_50_CHARACTERS'
+
+// Pronunciations One
+export const FETCH_PRONUNCIATIONS_ONE = 'pronunciationOne/FETCH_PRONUNCIATIONS_ONE'
+export const RECEIVE_PRONUNCIATIONS_ONE = 'pronunciationOne/RECEIVE_PRONUNCIATIONS_ONE'
+export const SELECT_PRONUNCIATIONS_ONE = 'pronunciationOne/SELECT_PRONUNCIATIONS_ONE'
+
+// Pronunciation Two
+export const FETCH_PRONUNCIATION_TWO = 'pronunciationTwo/FETCH_PRONUNCIATION_TWO'
+export const RECEIVE_PRONUNCIATION_TWO = 'pronunciationTwo/RECEIVE_PRONUNCIATION_TWO'
+
+// Greeting
+export const FETCH_GREETING = 'greeting/FETCH_GREETING'
+export const RECEIVE_GREETING = 'greeting/RECEIVE_GREETING'
