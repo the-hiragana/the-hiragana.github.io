@@ -6,6 +6,7 @@ import Home from 'components/Home.vue'
 import hiragana from 'components/Hiragana.vue'
 import pronounce from 'components/Pronounce.vue'
 import pronunciationsOne from 'components/PronunciationsOne.vue'
+import pronunciationsTwo from 'components/PronunciationsTwo.vue'
 import store from 'store'
 
 import './main.css'
@@ -17,6 +18,7 @@ const routes = [
   { path: '/hiragana', component: hiragana },
   { path: '/pronounce', component: pronounce },
   { path: '/pronunciations1', component: pronunciationsOne },
+  { path: '/pronunciations2', component: pronunciationsTwo },
 ]
 
 const router = new VueRouter({

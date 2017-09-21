@@ -9,8 +9,8 @@
 
 <script>
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
-import Jumbotron from './pronunciationsOne/Jumbotron.vue'
-import RowList from './pronunciationsOne/RowList.vue'
+import Jumbotron from './pronunciationsTwo/Jumbotron.vue'
+import RowList from './pronunciationsTwo/RowList.vue'
 import * as types from 'store/types'
 
 export default {
@@ -22,20 +22,20 @@ export default {
 
   computed: {
     ...mapState({
-      pronunciations: 'pronunciationsOne',
+      pronunciations: 'pronunciationsTwo',
     }),
     ...mapGetters({
-      getCurrent: 'getCurrentPronunciationsOne',
-      getMap: 'getMapPronunciationsOne',
+      getCurrent: 'getCurrentPronunciationsTwo',
+      getMap: 'getMapPronunciationsTwo',
     })
   },
 
   methods: {
     ...mapMutations({
-      select: types.SELECT_PRONUNCIATIONS_ONE,
+      select: types.SELECT_PRONUNCIATIONS_TWO,
     }),
     ...mapActions({
-      fetch: types.FETCH_PRONUNCIATIONS_ONE,
+      fetch: types.FETCH_PRONUNCIATIONS_TWO,
     })
   },
 

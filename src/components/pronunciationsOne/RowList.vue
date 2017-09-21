@@ -2,7 +2,7 @@
   <div class="container">
     <div class="mt-5">
       <h2>{{ section.mean }}</h2>
-      <div class="my-5" v-for="row in section.rows" :key="row.row" v-bind:row="row">
+      <div class="my-5" v-for="row in section.rows" :key="row.row">
         <button type="button" class="btn btn-outline-secondary mb-3">{{ row.row }}</button>
         <div class="card-group">
           <div class="card card-pron text-center mb-3" v-for="(character, index) in row.characters" :key="index">
@@ -66,7 +66,7 @@ export default {
 
 .circle {
   border-radius: 50%;
-	width: 30px;
-	height: 30px; 
+  width: 30px;
+  height: 30px;
 }
 </style>

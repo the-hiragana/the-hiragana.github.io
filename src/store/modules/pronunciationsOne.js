@@ -24,25 +24,23 @@ const state = {
             },{},{},{},{}
           ]
         }
-      },
-      {
-        "section": "DakuOn",
-        ...
-      },
-      {
-        "section": "YōOn",
-        ...
-      }
+      ]
+    },
+    {
+      "section": "DakuOn"
+    },
+    {
+      "section": "YōOn"
     }
   */
-  ],
+  ]
 }
 
 const getters = {
-  getCurrentPronunciation: state => {
+  getCurrentPronunciationsOne: state => {
     return state.content.find(pron => pron.section === state.selected)
   },
-  getMapPronunciations: state => {
+  getMapPronunciationsOne: state => {
     return state.content.map(pron => ({
       section: pron.section,
       mean: pron.mean,
