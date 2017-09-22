@@ -26,7 +26,7 @@ export default {
                 .catch(error => error)
   },
 
-  getGreeting() {
+  getGreetings() {
     return axios.get('/api/g.json')
                 .then(response => response.data)
                 .catch(error => error)

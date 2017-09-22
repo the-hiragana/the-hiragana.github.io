@@ -19,7 +19,7 @@
         <router-link class="nav-item" active-class="active" to="/pronunciations2" tag="li">
           <a class="nav-link">발음2</a>
         </router-link>
-        <router-link class="nav-item" active-class="active" to="/greeting" tag="li">
+        <router-link class="nav-item" active-class="active" to="/greetings" tag="li">
           <a class="nav-link">인사말</a>
         </router-link>
       </ul>

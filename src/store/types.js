@@ -1,17 +1,3 @@
-// Regions
-// export const FETCH_REGIONS = 'regions/FETCH_REGIONS'
-// export const RECEIVE_REGIONS = 'regions/RECEIVE_REGIONS'
-
-// Stations
-// export const FETCH_STATIONS = 'stations/FETCH_STATIONS'
-// export const RECEIVE_STATIONS = 'stations/RECEIVE_STATIONS'
-// export const SELECT_REGION = 'stations/SELECT_REGION'
-// export const SELECT_RESOURCE = 'stations/SELECT_RESOURCE'
-
-// resources
-// export const FETCH_RESOURCES = 'resources/FETCH_RESOURCES'
-// export const RECEIVE_RESOURCES = 'resources/RECEIVE_RESOURCES'
-
 // Pronounce
 export const FETCH_PRONOUNCE = 'regions/FETCH_PRONOUNCE'
 export const RECEIVE_PRONOUNCE = 'regions/RECEIVE_PRONOUNCE'
@@ -21,15 +7,15 @@ export const FETCH_50_CHARACTERS = 'characters/FETCH_50_CHARACTERS'
 export const RECEIVE_50_CHARACTERS = 'characters/RECEIVE_50_CHARACTERS'
 
 // Pronunciations One
-export const FETCH_PRONUNCIATIONS_ONE = 'pronunciationOne/FETCH_PRONUNCIATIONS_ONE'
-export const RECEIVE_PRONUNCIATIONS_ONE = 'pronunciationOne/RECEIVE_PRONUNCIATIONS_ONE'
-export const SELECT_PRONUNCIATIONS_ONE = 'pronunciationOne/SELECT_PRONUNCIATIONS_ONE'
+export const FETCH_PRONUNCIATIONS_ONE = 'pronunciationsOne/FETCH_PRONUNCIATIONS_ONE'
+export const RECEIVE_PRONUNCIATIONS_ONE = 'pronunciationsOne/RECEIVE_PRONUNCIATIONS_ONE'
+export const SELECT_PRONUNCIATIONS_ONE = 'pronunciationsOne/SELECT_PRONUNCIATIONS_ONE'
 
-// Pronunciation Two
-export const FETCH_PRONUNCIATIONS_TWO = 'pronunciationTwo/FETCH_PRONUNCIATIONS_TWO'
-export const RECEIVE_PRONUNCIATIONS_TWO = 'pronunciationTwo/RECEIVE_PRONUNCIATIONS_TWO'
-export const SELECT_PRONUNCIATIONS_TWO = 'pronunciationTwo/SELECT_PRONUNCIATIONS_TWO'
+// Pronunciations Two
+export const FETCH_PRONUNCIATIONS_TWO = 'pronunciationsTwo/FETCH_PRONUNCIATIONS_TWO'
+export const RECEIVE_PRONUNCIATIONS_TWO = 'pronunciationsTwo/RECEIVE_PRONUNCIATIONS_TWO'
+export const SELECT_PRONUNCIATIONS_TWO = 'pronunciationsTwo/SELECT_PRONUNCIATIONS_TWO'
 
-// Greeting
-export const FETCH_GREETING = 'greeting/FETCH_GREETING'
-export const RECEIVE_GREETING = 'greeting/RECEIVE_GREETING'
+// Greetings
+export const FETCH_GREETINGS = 'greetings/FETCH_GREETINGS'
+export const RECEIVE_GREETINGS = 'greetings/RECEIVE_GREETINGS'

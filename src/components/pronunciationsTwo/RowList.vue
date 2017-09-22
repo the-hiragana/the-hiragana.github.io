@@ -1,10 +1,10 @@
 <template>
   <div class="container pt-3">
     <h2>{{ section.mean }}</h2>
-    <div class="alert alert-info p-5" role="alert">
+    <div class="alert alert-info px-5 py-4" role="alert">
       <div class="row">
         <div class="col-md-2 text-center" v-if="section.character">
-          <h1 class="display-1">{{ section.character }}</h1>
+          <span class="display-1">{{ section.character }}</span>
         </div>
         <div class="col">
           <h4>{{ section.description }}</h4>
@@ -12,8 +12,9 @@
       </div>
     </div>
     <div class="my-4" v-for="row in section.rows" :key="row.row">
-      <h4 class="circle text-center">{{ row.row }}</h4>
-      <h4 class="p-3 mb-2 bg-description">{{ row.description }}</h4>
+      <h4 class="p-3 mb-2 bg-description">
+        <span class="badge badge-pill badge-danger">{{ row.row }}</span> {{ row.description }}
+      </h4>
       <div class="row">
         <div class="col-sm-4 text-left mb-3" v-for="(character, index) in row.characters" :key="index">
           <span class="h5 text-danger">{{ character.word }}</span>
@@ -27,7 +28,9 @@
 <script>
 
 export default {
-  props: ['section']
+  props: [
+    'section',
+  ],
 }
 </script>
 

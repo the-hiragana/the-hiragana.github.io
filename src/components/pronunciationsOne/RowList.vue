@@ -23,7 +23,9 @@
 <script>
 
 export default {
-  props: ['section']
+  props: [
+    'section',
+  ],
 }
 </script>
 
