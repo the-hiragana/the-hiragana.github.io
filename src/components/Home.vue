@@ -1,7 +1,9 @@
 <template>
-  <div>
-    Home
-  </div>
+  <transition name="fade">
+    <div>
+      Home
+    </div>
+  </transition>
 </template>
 
 <script>

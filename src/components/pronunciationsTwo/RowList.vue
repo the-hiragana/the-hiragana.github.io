@@ -1,6 +1,6 @@
 <template>
   <div class="container pt-3">
-    <h2>{{ section.mean }}</h2>
+    <!-- <h2>{{ section.mean }}</h2> -->
     <div class="alert alert-info px-5 py-4" role="alert">
       <div class="row">
         <div class="col-md-2 text-center" v-if="section.character">

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="mt-5">
-      <h2>{{ section.mean }}</h2>
+      <!-- <h2>{{ section.mean }}</h2> -->
       <div class="my-5" v-for="row in section.rows" :key="row.row">
         <button type="button" class="btn btn-outline-secondary mb-3">{{ row.row }}</button>
         <div class="card-group">
