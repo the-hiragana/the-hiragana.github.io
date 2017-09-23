@@ -2,9 +2,7 @@ import API from 'api'
 import * as types from 'store/types'
 
 const state = {
-  loading: false,
-  message: false,
-  selected: 'SeiOn',
+  selected: undefined,
   content: [
   /*
     {
@@ -55,20 +53,8 @@ const mutations = {
     state.selected = selected
   },
   [types.RECEIVE_PRONUNCIATIONS_ONE] (state, {pronunciations}) {
+    state.selected = pronunciations[0]['section']
     state.content = pronunciations
-  },
-
-  [types.PRONUNCIATIONS_ONE_REQUEST] (state) {
-    state.loading = true
-    state.message = false
-  },
-  [types.PRONUNCIATIONS_ONE_SUCCESS] (state, {pronunciations}) {
-    state.loading = false
-    state.content = pronunciations
-  },
-  [types.PRONUNCIATIONS_ONE_FAILURE] (state, error) {
-    state.loading = false
-    state.message = true
   },
 }
 
@@ -79,18 +65,6 @@ const actions = {
         context.commit(types.RECEIVE_PRONUNCIATIONS_ONE, {pronunciations})
       })
   },
-  [types.PRONUNCIATIONS_ONE_FETCH] ({commit, state}) {
-    commit(types.PRONUNCIATIONS_ONE_REQUEST)
-
-    API.getPronunciationsOne()
-      .then(pronunciations => {
-        console.log(pronunciations)
-        commit(types.PRONUNCIATIONS_ONE_SUCCESS, {pronunciations})
-      })
-      .catch(error => {
-        commit(types.PRONUNCIATIONS_ONE_FAILURE, error)
-      })
-  }
 }
 
 export default {

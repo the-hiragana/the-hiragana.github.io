@@ -1,16 +1,15 @@
 <template>
   <div>
-    <template v-if="pronunciations.loading">
-      <h1>Loading...</h1>
-    </template>
-    <template v-else-if="pronunciations.me">
-      <h2>dfdsf</h2>
-    </template>
-    <template v-else>
+    <template v-if="pronunciations.content.length">
       <Jumbotron v-on:select="select" 
                  v-bind:map="getMap"
                  v-bind:current="pronunciations.selected"></Jumbotron>
       <RowList v-bind:section="getCurrent"></RowList>
+    </template>
+    <template v-else>
+      <div class="container">
+        <h1>Loading...</h1>
+      </div>
     </template>
   </div>
 </template>
@@ -43,8 +42,7 @@ export default {
       select: types.SELECT_PRONUNCIATIONS_ONE,
     }),
     ...mapActions({
-      // fetch: types.FETCH_PRONUNCIATIONS_ONE,
-      fetch: types.PRONUNCIATIONS_ONE_FETCH,
+      fetch: types.FETCH_PRONUNCIATIONS_ONE,
     })
   },
 

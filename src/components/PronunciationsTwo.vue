@@ -1,9 +1,16 @@
 <template>
   <div>
-    <Jumbotron v-on:select="select" 
-               v-bind:map="getMap"
-               v-bind:current="pronunciations.selected"></Jumbotron>
-    <RowList v-bind:section="getCurrent"></RowList>
+    <template v-if="pronunciations.content.length">
+      <Jumbotron v-on:select="select"
+                 v-bind:map="getMap"
+                 v-bind:current="pronunciations.selected"></Jumbotron>
+      <RowList v-bind:section="getCurrent"></RowList>
+    </template>
+    <template v-else>
+      <div class="container">
+        <h1>Loading...</h1>
+      </div>
+    </template>
   </div>
 </template>
 
