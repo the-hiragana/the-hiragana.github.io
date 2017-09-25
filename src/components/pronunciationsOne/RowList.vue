@@ -5,12 +5,17 @@
       <div class="my-5" v-for="row in section.rows" :key="row.row">
         <button type="button" class="btn btn-outline-secondary mb-3">{{ row.row }}</button>
         <div class="card-group">
-          <div class="card card-pron text-center mb-3" v-for="(character, index) in row.characters" :key="index">
-            <div class="phonetic circle" v-if="character.phonetic">{{ character.phonetic }}</div>
-            <div class="card-title wf-notosansjapanese">{{ character.character }}</div>
+          <div class="card card-pron text-center mb-3"
+               v-for="(character, index) in row.characters"
+               v-bind:key="index"
+               v-bind:class="[!character.character ? 'd-none d-sm-block' : '', '']">
+            <div class="phonetic circle rounded-circle" v-if="character.phonetic">{{ character.phonetic }}</div>
+            <div class="card-img-top wf-notosansjapanese" v-if="character.character">
+              <h1 class="display-4 py-3 mb-0">{{ character.character }}</h1>
+            </div>
             <div class="card-body">
-              <p class="mb-0">{{ character.word }}</p>
-              <p class="mb-0">{{ character.mean }}</p>
+              <h5 class="card-title mb-0">{{ character.word }}</h5>
+              <p class="card-text mb-0">{{ character.mean }}</p>
             </div>
           </div>
         </div>
@@ -30,45 +35,24 @@ export default {
 </script>
 
 <style>
-/* .card-group .card .card-title {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-@media (min-width: 576px) {
-  .card-group .card:not(:first-child) .card-title {
-    border-top-left-radius: 0;
-    }
-  .card-group .card:not(:last-child) .card-title {
-    border-top-right-radius: 0;
-  }
-} */
-
 .card-pron {
   border-color: #fff;
-}
-
-.card-pron .card-title {
-  font-size: 3rem;
-  margin-bottom: 0;
-  background-color: #ffbbbb;
-}
-
-.card-pron .card-body {
-  padding: .75rem;
-  background-color: #f6f6f6;
 }
 
 .card-pron .phonetic {
   position: absolute;
   right: 5px;
   top: -15px;
+  width: 30px;
+  height: 30px;
   background-color: #ff6969;
 }
 
-.circle {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+.card-pron .card-img-top {
+  background-color: #ffbbbb;
+}
+
+.card-pron .card-body {
+  background-color: #f6f6f6;
 }
 </style>

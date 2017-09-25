@@ -1,7 +1,7 @@
 <template>
   <div class="jumbotron jumbotron-fluid pb-0">
     <div class="container pb-4">
-      <h1 class="display-3">문자</h1>
+      <h1 class="display-3">50음도</h1>
       <p class="lead">히라가나와 가타카나</p>
     </div>
     <div class="d-flex justify-content-center">

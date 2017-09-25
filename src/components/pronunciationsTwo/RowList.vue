@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <div class="my-4" v-for="row in section.rows" :key="row.row">
+    <div class="my-5" v-for="row in section.rows" :key="row.row">
       <h4 class="p-3 mb-2 bg-description">
         <span class="badge badge-pill badge-danger">{{ row.row }}</span> {{ row.description }}
       </h4>
