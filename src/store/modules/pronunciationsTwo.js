@@ -2,7 +2,7 @@ import API from 'api'
 import * as types from 'store/types'
 
 const state = {
-  selected: 'HatsuOn',
+  selected: undefined,
   content: [
   /*
     {
@@ -55,6 +55,7 @@ const mutations = {
     state.selected = selected
   },
   [types.RECEIVE_PRONUNCIATIONS_TWO] (state, {pronunciations}) {
+    state.selected = pronunciations[0]['section']
     state.content = pronunciations
   },
 }
