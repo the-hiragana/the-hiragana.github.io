@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div>
-      <Jumbotron v-on:select="select" 
+      <Jumbotron v-on:select="select"
                  v-bind:map="getMap"
                  v-bind:current="pronunciations.selected"></Jumbotron>
       <RowList v-bind:section="getCurrent"

@@ -630,15 +630,5 @@
         {}
       ]
     ]
-  },
-  {
-    "section": "kanji",
-    "mean": "한자",
-    "kanji": "漢字",
-    "hurigana": "かんじ",
-    "description": "",
-    "rows": [
-      {}
-    ]
   }
 ]

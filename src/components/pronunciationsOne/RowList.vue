@@ -30,9 +30,9 @@ export default {
 </script>
 
 <style>
-.card-group .card .card-title {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+/* .card-group .card .card-title {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 @media (min-width: 576px) {
@@ -42,7 +42,7 @@ export default {
   .card-group .card:not(:last-child) .card-title {
     border-top-right-radius: 0;
   }
-}
+} */
 
 .card-pron {
   border-color: #fff;

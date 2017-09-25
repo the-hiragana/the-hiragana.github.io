@@ -10,7 +10,7 @@
         <router-link class="nav-item" active-class="active" to="/" tag="li" exact>
           <a class="nav-link">홈</a>
         </router-link>
-        <router-link class="nav-item" active-class="active" to="/fiftycharacters" tag="li">
+        <router-link class="nav-item" active-class="active" to="/hiragana" tag="li">
           <a class="nav-link">50음도</a>
         </router-link>
         <router-link class="nav-item" active-class="active" to="/pronunciations1" tag="li">

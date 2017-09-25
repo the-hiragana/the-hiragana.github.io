@@ -1,10 +1,11 @@
-// Pronounce
-export const FETCH_PRONOUNCE = 'regions/FETCH_PRONOUNCE'
-export const RECEIVE_PRONOUNCE = 'regions/RECEIVE_PRONOUNCE'
-
 // 50 Characters
 export const FETCH_50_CHARACTERS = 'characters/FETCH_50_CHARACTERS'
 export const RECEIVE_50_CHARACTERS = 'characters/RECEIVE_50_CHARACTERS'
+
+// Hiragana
+export const FETCH_HIRAGANA = 'hiragana/FETCH_HIRAGANA'
+export const RECEIVE_HIRAGANA = 'hiragana/RECEIVE_HIRAGANA'
+export const SELECT_HIRAGANA = 'hiragana/SELECT_HIRAGANA'
 
 // Pronunciations One
 export const FETCH_PRONUNCIATIONS_ONE = 'pronunciationsOne/FETCH_PRONUNCIATIONS_ONE'
