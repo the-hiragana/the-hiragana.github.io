@@ -1,0 +1,644 @@
+[
+  {
+    "section": "hiragana",
+    "mean": "히라가나",
+    "kanji": "平仮名",
+    "hurigana": "ひらがな",
+    "description": "",
+    "rows": [
+      [
+        {
+          "character": "あ",
+          "phonetic": "a",
+          "word": "あり",
+          "mean": "개미"
+        },
+        {
+          "character": "い",
+          "phonetic": "i",
+          "word": "いぬ",
+          "mean": "개"
+        },
+        {
+          "character": "う",
+          "phonetic": "u",
+          "word": "うえ",
+          "mean": "위"
+        },
+        {
+          "character": "え",
+          "phonetic": "e",
+          "word": "いき",
+          "mean": "역"
+        },
+        {
+          "character": "お",
+          "phonetic": "o",
+          "word": "おに",
+          "mean": "도깨비"
+        }
+      ],
+      [
+        {
+          "character": "か",
+          "phonetic": "ka",
+          "word": "かお",
+          "mean": "얼굴"
+        },
+        {
+          "character": "き",
+          "phonetic": "ki",
+          "word": "きく",
+          "mean": "국화"
+        },
+        {
+          "character": "く",
+          "phonetic": "ku",
+          "word": "くつ",
+          "mean": "구두"
+        },
+        {
+          "character": "け",
+          "phonetic": "ke",
+          "word": "けむり",
+          "mean": "연기"
+        },
+        {
+          "character": "こ",
+          "phonetic": "ko",
+          "word": "こま",
+          "mean": "팽이"
+        }
+      ],
+      [
+        {
+          "character": "さ",
+          "phonetic": "sa",
+          "word": "さる",
+          "mean": "원숭이"
+        },
+        {
+          "character": "し",
+          "phonetic": "si",
+          "word": "しか",
+          "mean": "사슴"
+        },
+        {
+          "character": "す",
+          "phonetic": "su",
+          "word": "すいか",
+          "mean": "수박"
+        },
+        {
+          "character": "せ",
+          "phonetic": "se",
+          "word": "せみ",
+          "mean": "매미"
+        },
+        {
+          "character": "そ",
+          "phonetic": "so",
+          "word": "そら",
+          "mean": "하늘"
+        }
+      ],
+      [
+        {
+          "character": "た",
+          "phonetic": "ta",
+          "word": "たこ",
+          "mean": "문어"
+        },
+        {
+          "character": "ち",
+          "phonetic": "chi",
+          "word": "ちかてつ",
+          "mean": "지하철"
+        },
+        {
+          "character": "つ",
+          "phonetic": "tsu",
+          "word": "つき",
+          "mean": "달"
+        },
+        {
+          "character": "て",
+          "phonetic": "te",
+          "word": "てんき",
+          "mean": "날씨"
+        },
+        {
+          "character": "と",
+          "phonetic": "to",
+          "word": "とけい",
+          "mean": "시계"
+        }
+      ],
+      [
+        {
+          "character": "な",
+          "phonetic": "na",
+          "word": "なし",
+          "mean": "배"
+        },
+        {
+          "character": "に",
+          "phonetic": "ni",
+          "word": "にわ",
+          "mean": "마당"
+        },
+        {
+          "character": "ぬ",
+          "phonetic": "nu",
+          "word": "ぬりえ",
+          "mean": "색칠그림"
+        },
+        {
+          "character": "ね",
+          "phonetic": "ne",
+          "word": "ねこ",
+          "mean": "고양이"
+        },
+        {
+          "character": "の",
+          "phonetic": "no",
+          "word": "のり",
+          "mean": "김"
+        }
+      ],
+      [
+        {
+          "character": "は",
+          "phonetic": "ha",
+          "word": "はさみ",
+          "mean": "가위"
+        },
+        {
+          "character": "ひ",
+          "phonetic": "hi",
+          "word": "ひかり",
+          "mean": "빛"
+        },
+        {
+          "character": "ふ",
+          "phonetic": "hu",
+          "word": "ふね",
+          "mean": "배"
+        },
+        {
+          "character": "へ",
+          "phonetic": "he",
+          "word": "へや",
+          "mean": "방"
+        },
+        {
+          "character": "ほ",
+          "phonetic": "ho",
+          "word": "ほん",
+          "mean": "책"
+        }
+      ],
+      [
+        {
+          "character": "ま",
+          "phonetic": "ma",
+          "word": "まめ",
+          "mean": "콩"
+        },
+        {
+          "character": "み",
+          "phonetic": "mi",
+          "word": "みみ",
+          "mean": "귀"
+        },
+        {
+          "character": "む",
+          "phonetic": "mu",
+          "word": "むすこ",
+          "mean": "아들"
+        },
+        {
+          "character": "め",
+          "phonetic": "me",
+          "word": "めん",
+          "mean": "국수"
+        },
+        {
+          "character": "も",
+          "phonetic": "mo",
+          "word": "もり",
+          "mean": "숲"
+        }
+      ],
+      [
+        {
+          "character": "や",
+          "phonetic": "ya",
+          "word": "やかん",
+          "mean": "주전자"
+        },
+        {},
+        {
+          "character": "ゆ",
+          "phonetic": "yu",
+          "word": "ゆめ",
+          "mean": "꿈"
+        },
+        {},
+        {
+          "character": "よ",
+          "phonetic": "yo",
+          "word": "よる",
+          "mean": "밤"
+        }
+      ],
+      [
+        {
+          "character": "ら",
+          "phonetic": "ra",
+          "word": "らいねん",
+          "mean": "내년"
+        },
+        {
+          "character": "り",
+          "phonetic": "ri",
+          "word": "りす",
+          "mean": "다람쥐"
+        },
+        {
+          "character": "る",
+          "phonetic": "ru",
+          "word": "るす",
+          "mean": "부재중"
+        },
+        {
+          "character": "れ",
+          "phonetic": "re",
+          "word": "れんらく",
+          "mean": "연락"
+        },
+        {
+          "character": "ろ",
+          "phonetic": "ro",
+          "word": "ろうそく",
+          "mean": "촛불"
+        }
+      ],
+      [
+        {
+          "character": "わ",
+          "phonetic": "wa",
+          "word": "わに",
+          "mean": "악어"
+        },
+        {},
+        {},
+        {},
+        {
+          "character": "を",
+          "phonetic": "wo",
+          "word": "すしをたべる",
+          "mean": "초밥을 먹다"
+        }
+      ],
+      [
+        {
+          "character": "ん",
+          "phonetic": "ŋ",
+          "word": "きん",
+          "mean": "금"
+        },
+        {},
+        {},
+        {},
+        {}
+      ]
+    ]
+  },
+  {
+    "section": "katakana",
+    "mean": "가타카나",
+    "kanji": "片仮名",
+    "hurigana": "かたかな",
+    "description": "",
+    "rows": [
+      [
+        {
+          "character": "ア",
+          "phonetic": "a",
+          "word": "アクセサリー",
+          "mean": "액세서리"
+        },
+        {
+          "character": "イ",
+          "phonetic": "i",
+          "word": "インク",
+          "mean": "잉크"
+        },
+        {
+          "character": "ウ",
+          "phonetic": "u",
+          "word": "ウエハース",
+          "mean": "웨하스"
+        },
+        {
+          "character": "エ",
+          "phonetic": "e",
+          "word": "エアコン",
+          "mean": "에어컨"
+        },
+        {
+          "character": "オ",
+          "phonetic": "o",
+          "word": "オムライス",
+          "mean": "오므라이스"
+        }
+      ],
+      [
+        {
+          "character": "カ",
+          "phonetic": "ka",
+          "word": "カメラ",
+          "mean": "카메라"
+        },
+        {
+          "character": "キ",
+          "phonetic": "ki",
+          "word": "キリン",
+          "mean": "기린"
+        },
+        {
+          "character": "ク",
+          "phonetic": "ku",
+          "word": "クリスマス",
+          "mean": "크리스마스"
+        },
+        {
+          "character": "ケ",
+          "phonetic": "ke",
+          "word": "ケータイ",
+          "mean": "휴대폰"
+        },
+        {
+          "character": "コ",
+          "phonetic": "ko",
+          "word": "コーヒー",
+          "mean": "커피"
+        }
+      ],
+      [
+        {
+          "character": "サ",
+          "phonetic": "sa",
+          "word": "サイコロ",
+          "mean": "주사위"
+        },
+        {
+          "character": "シ",
+          "phonetic": "si",
+          "word": "シーソー",
+          "mean": "시소"
+        },
+        {
+          "character": "ス",
+          "phonetic": "su",
+          "word": "スニーカー",
+          "mean": "운동화"
+        },
+        {
+          "character": "セ",
+          "phonetic": "se",
+          "word": "セーター",
+          "mean": "스웨터"
+        },
+        {
+          "character": "ソ",
+          "phonetic": "so",
+          "word": "ソーセージ",
+          "mean": "소시지"
+        }
+      ],
+      [
+        {
+          "character": "タ",
+          "phonetic": "ta",
+          "word": "タクシー",
+          "mean": "택시"
+        },
+        {
+          "character": "チ",
+          "phonetic": "chi",
+          "word": "チーズ",
+          "mean": "치즈"
+        },
+        {
+          "character": "ツ",
+          "phonetic": "tsu",
+          "word": "ツリー",
+          "mean": "트리"
+        },
+        {
+          "character": "テ",
+          "phonetic": "te",
+          "word": "テレビ",
+          "mean": "텔레비전"
+        },
+        {
+          "character": "ト",
+          "phonetic": "to",
+          "word": "トイレ",
+          "mean": "화장실"
+        }
+      ],
+      [
+        {
+          "character": "ナ",
+          "phonetic": "na",
+          "word": "ナイフ",
+          "mean": "나이프/칼"
+        },
+        {
+          "character": "ニ",
+          "phonetic": "ni",
+          "word": "ニュース",
+          "mean": "뉴스"
+        },
+        {
+          "character": "ヌ",
+          "phonetic": "nu",
+          "word": "ヌードル",
+          "mean": "누들/국수"
+        },
+        {
+          "character": "ネ",
+          "phonetic": "ne",
+          "word": "ネックレス",
+          "mean": "목걸이"
+        },
+        {
+          "character": "ノ",
+          "phonetic": "no",
+          "word": "ノーƒ",
+          "mean": "노트"
+        }
+      ],
+      [
+        {
+          "character": "ハ",
+          "phonetic": "ha",
+          "word": "ハンバーガー",
+          "mean": "햄버거"
+        },
+        {
+          "character": "ヒ",
+          "phonetic": "hi",
+          "word": "ヒーター",
+          "mean": "히터"
+        },
+        {
+          "character": "フ",
+          "phonetic": "hu",
+          "word": "フライパン",
+          "mean": "후라이팬"
+        },
+        {
+          "character": "ヘ",
+          "phonetic": "he",
+          "word": "ヘリコプター",
+          "mean": "헬리콥터"
+        },
+        {
+          "character": "ホ",
+          "phonetic": "ho",
+          "word": "ホテル",
+          "mean": "호텔"
+        }
+      ],
+      [
+        {
+          "character": "マ",
+          "phonetic": "ma",
+          "word": "マフラー",
+          "mean": "머플러"
+        },
+        {
+          "character": "ミ",
+          "phonetic": "mi",
+          "word": "ミルク",
+          "mean": "밀크/우유"
+        },
+        {
+          "character": "ム",
+          "phonetic": "mu",
+          "word": "ゲーム",
+          "mean": "게임"
+        },
+        {
+          "character": "メ",
+          "phonetic": "me",
+          "word": "メロン",
+          "mean": "메론"
+        },
+        {
+          "character": "モ",
+          "phonetic": "mo",
+          "word": "モデル",
+          "mean": "모델"
+        }
+      ],
+      [
+        {
+          "character": "ヤ",
+          "phonetic": "ya",
+          "word": "タイヤ",
+          "mean": "타이어"
+        },
+        {},
+        {
+          "character": "ユ",
+          "phonetic": "yu",
+          "word": "ユニホーム",
+          "mean": "유니폼"
+        },
+        {},
+        {
+          "character": "ヨ",
+          "phonetic": "yo",
+          "word": "ヨーグルト",
+          "mean": "요구르트"
+        }
+      ],
+      [
+        {
+          "character": "ラ",
+          "phonetic": "ra",
+          "word": "ラジオ",
+          "mean": "라디오"
+        },
+        {
+          "character": "リ",
+          "phonetic": "ri",
+          "word": "リボン",
+          "mean": "리본"
+        },
+        {
+          "character": "ル",
+          "phonetic": "ru",
+          "word": "ルーレット",
+          "mean": "룰렛"
+        },
+        {
+          "character": "レ",
+          "phonetic": "re",
+          "word": "レポート",
+          "mean": "리포트"
+        },
+        {
+          "character": "ロ",
+          "phonetic": "ro",
+          "word": "ロケット",
+          "mean": "로켓"
+        }
+      ],
+      [
+        {
+          "character": "ワ",
+          "phonetic": "wa",
+          "word": "ワイン",
+          "mean": "와인"
+        },
+        {},
+        {},
+        {},
+        {
+          "character": "ヲ",
+          "phonetic": "wo",
+          "word": "",
+          "mean": ""
+        }
+      ],
+      [
+        {
+          "character": "ン",
+          "phonetic": "ŋ",
+          "word": "パソコン",
+          "mean": "컴퓨터"
+        },
+        {},
+        {},
+        {},
+        {}
+      ]
+    ]
+  },
+  {
+    "section": "kanji",
+    "mean": "한자",
+    "kanji": "漢字",
+    "hurigana": "かんじ",
+    "description": "",
+    "rows": [
+      {}
+    ]
+  }
+]
