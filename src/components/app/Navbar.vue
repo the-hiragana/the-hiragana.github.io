@@ -1,11 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">히라가나</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="container">
+    <nav class="navbar navbar-expand navbar-light flex-column flex-md-row">
+      <a class="navbar-brand" href="#">히라가나</a>
+      <div>
       <ul class="navbar-nav mr-auto">
         <router-link class="nav-item" active-class="active" to="/" tag="li" exact>
           <a class="nav-link">홈</a>
@@ -23,8 +20,9 @@
           <a class="nav-link">인사말</a>
         </router-link>
       </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
+  </div>
 </template>
 
 <script>
