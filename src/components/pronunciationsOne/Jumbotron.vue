@@ -1,8 +1,8 @@
 <template>
   <div class="jumbotron jumbotron-fluid pb-0">
     <div class="container pb-4">
-      <h1 class="display-3">発音1</h1>
-      <p class="lead">ひらがなを覚えよう。</p>
+      <h1 class="display-3">はつおん1</h1>
+      <p class="lead">발음</p>
     </div>
     <div class="d-flex justify-content-center">
       <ul class="nav nav-tabs">
