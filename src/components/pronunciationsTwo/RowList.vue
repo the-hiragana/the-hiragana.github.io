@@ -11,43 +11,24 @@
         </div>
       </div>
     </div>
-    <div class="my-5" v-for="row in section.rows" :key="row.row">
-      <h4 class="p-3 mb-2 bg-description">
-        <span class="badge badge-pill badge-danger">{{ row.row }}</span> {{ row.description }}
-      </h4>
-      <div class="row">
-        <div class="col-sm-4 text-left mb-3" v-for="(character, index) in row.characters" :key="index">
-          <span class="h5 text-danger">{{ character.word }}</span>
-          <span class="h5">{{ character.mean }}</span>
-        </div>
-      </div>
-    </div>
+    <Row v-for="row in section.rows" :key="row.row" :row="row"></Row>
   </div>
 </template>
 
 <script>
+import Row from './Row.vue'
 
 export default {
   props: [
     'section',
   ],
+
+  components: {
+    Row,
+  },
 }
 </script>
 
 <style>
-.bg-description {
-  background-color: #b3dcfc;
-}
 
-.circle {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  justify-content: center;
-
-  /* position: absolute; */
-  right: 20px;
-  top: 50px;
-  background-color: #ff6969;
-}
 </style>
