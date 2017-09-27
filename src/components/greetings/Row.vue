@@ -1,5 +1,5 @@
 <template>
-  <div class="card mb-4">
+  <div class="card my-5">
     <div class="card-header bg-info">{{ greeting.subject }}</div>
     <div class="card-body">
       <div class="blockquote" v-for="(sentence, index) in greeting.sentences" :key="index">

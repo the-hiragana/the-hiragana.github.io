@@ -1,6 +1,6 @@
 <template>
   <div class="my-5">
-    <button type="button" class="btn btn-outline-secondary mb-3">{{ row.row }}</button>
+    <button type="button" class="btn btn-secondary mb-3" disabled>{{ row.row }}</button>
     <div class="card-group">
       <div class="card card-pron text-center mb-3"
            v-for="(character, index) in row.characters"

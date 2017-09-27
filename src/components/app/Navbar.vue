@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <nav class="navbar navbar-expand navbar-light flex-column flex-md-row">
-      <a class="navbar-brand" href="#">히라가나</a>
+      <router-link class="navbar-brand" to="/">히라가나</router-link>
       <div>
       <ul class="navbar-nav mr-auto">
         <router-link class="nav-item" active-class="active" to="/" tag="li" exact>

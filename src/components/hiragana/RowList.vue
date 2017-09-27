@@ -1,9 +1,7 @@
 <template>
   <div class="container">
     <div class="mt-5">
-      <div class="my-5" v-for="row in section.rows" :key="row.row">
-        <Row :row="row"></Row>
-      </div>
+      <Row v-for="row in section.rows" :key="row.row" :row="row"></Row>
     </div>
   </div>
 </template>
