@@ -1,8 +1,8 @@
 <template>
   <div class="jumbotron jumbotron-fluid pb-0">
     <div class="container pb-4">
-      <h1 class="display-3">はつおん1</h1>
-      <p class="lead">발음</p>
+      <h1 class="display-4 wf-notosansjapanese">はつおん</h1>
+      <p class="lead mb-0">발음1</p>
     </div>
     <div class="d-flex justify-content-center">
       <ul class="nav nav-tabs">
