@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, './dist'),
-    // publicPath: '/dist/',
+    publicPath: 'dist/',
     filename: '[name].bundle.js'
   },
 
@@ -54,17 +54,17 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin('dist'),
     new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor', 'manifest']
     }),
-    new HtmlWebpackPlugin({
-      template: 'src/assets/index.html'
-    })
+    // new HtmlWebpackPlugin({
+    //   template: 'src/assets/index.html'
+    // })
   ],
 
   devServer: {
-    contentBase: [path.resolve(__dirname, './dist'), path.resolve(__dirname, './data')],
+    // contentBase: [path.resolve(__dirname, './dist'), path.resolve(__dirname, './data')],
     historyApiFallback: true,
     noInfo: true,
     port: 8080,
