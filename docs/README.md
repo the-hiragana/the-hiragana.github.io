@@ -10,15 +10,3 @@ $ yarn dev
 # build for production with minification
 $ yarn build
 ```
-
-
-Sei on
-Daku on
-Yō on
-Hatsu on
-Soku on
-Chō on
-
-あいさつ
-Aisatsu
-Greeting

@@ -30,6 +30,7 @@ export default {
 
 <style>
 .card-pron {
+  background-color: #f6f6f6;
   border-color: #fff;
 }
 
@@ -44,9 +45,5 @@ export default {
 
 .card-pron .card-img-top {
   background-color: #ffbbbb;
-}
-
-.card-pron .card-body {
-  background-color: #f6f6f6;
 }
 </style>

@@ -1,22 +1,22 @@
 <template>
   <div class="container">
     <div class="my-5">
-      <router-link to="/hiragana">50음도 보러가기</router-link>
+      <router-link class="btn btn-outline-primary" to="/hiragana">50음도</router-link>
       <HiraganaRow v-bind:row="hiragana"></HiraganaRow>
     </div>
     <hr>
     <div class="my-5">
-      <router-link to="/pronunciations1">발음1 보러가기</router-link>
+      <router-link class="btn btn-outline-primary" to="/pronunciations1">발음1</router-link>
       <PronuOneRow v-bind:row="one"></PronuOneRow>
     </div>
     <hr>
     <div class="my-5">
-      <router-link to="/pronunciations2">발음1 보러가기</router-link>
+      <router-link class="btn btn-outline-primary" to="/pronunciations2">발음1</router-link>
       <PronuTwoRow v-bind:row="one"></PronuTwoRow>
     </div>
     <hr>
     <div class="my-5">
-      <router-link to="/greetings">인사말 보러가기</router-link>
+      <router-link class="btn btn-outline-primary" to="/greetings">인사말</router-link>
       <GreetingRow v-bind:greeting="greeting"></GreetingRow>
     </div>
   </div>

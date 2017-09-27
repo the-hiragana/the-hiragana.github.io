@@ -26,6 +26,11 @@ export default {
 </script>
 
 <style>
+.card-hiragana {
+  background-color: #f6f6f6;
+  border-color: #fff;
+}
+
 .card-hiragana .card-img-top {
   background-color: #ffeebb;
 }
