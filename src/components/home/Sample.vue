@@ -61,7 +61,7 @@ export default {
         {
           "character": "え",
           "phonetic": "e",
-          "word": "いき",
+          "word": "えき",
           "mean": "역"
         },
         {
