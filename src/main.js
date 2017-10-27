@@ -9,8 +9,6 @@ import pronunciationsTwo from 'components/PronunciationsTwo.vue'
 import greetings from 'components/Greetings.vue'
 import store from 'store'
 
-import './main.css'
-
 Vue.use(VueRouter)
 
 const routes = [
